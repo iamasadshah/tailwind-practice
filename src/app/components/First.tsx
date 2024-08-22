@@ -9,7 +9,12 @@ const First = () => {
         <h3 className="text-2xl text-white">
           Learning Next.js and Tailwind CSS
         </h3>
-        <Image src={"/next.svg"} alt="nextjs logo" width={100} height={100} />
+        <Image
+          src={"/tailwind-css.png"}
+          alt="nextjs logo"
+          width={100}
+          height={50}
+        />
       </div>
     </>
   );

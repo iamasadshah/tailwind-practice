@@ -7,7 +7,7 @@ const Page = () => {
       <div className="flex h-screen bg-slate-400  justify-center items-center">
         <Image
           className="flex  rounded-l-2xl rounded-bl-2xl "
-          src={"/asad.jpg"}
+          src={"/article.jpg"}
           alt="book"
           height={180}
           width={180}
