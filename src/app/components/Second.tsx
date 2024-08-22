@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Second = () => {
@@ -7,7 +8,9 @@ const Second = () => {
       Modern-css-with-tailwind-second-edition <br /> & <br /> CSS Flex &
       Grid_Tailwind CSS by Shruti Balasa
       <div className="my-4 flex justify-center items-center">
-        <img
+        <Image
+          width={100}
+          height={100}
           className="rounded hover:saturate-150 shadow-2xl hover:scale-110 cursor-grab hover:transition-transform"
           src="/book.png"
           alt="Book image"
