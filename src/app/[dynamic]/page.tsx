@@ -11,7 +11,12 @@ const Page = (props: { params: { dynamic: string } }) => {
         <p className="bg-red-600 rounded-lg text-white text-center py-6">
           {dynamic}{" "}
         </p>{" "}
-        The Page is Under Construction
+        <h1>Oops</h1>
+        <h3>Something is going on in the Universe...</h3>
+        <p>
+          It seems like we’re having some difficulties; please don’t abandon
+          ship, we’re sending for help.
+        </p>
       </div>
     </div>
   );

@@ -8,13 +8,13 @@ const Page = () => {
         <div className="m-6">
           <h4 className="font-bold text-lg">Veg Burger</h4>
           <p className="font-semibold">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
-            sequi?
+            A delicious and wholesome burger made with fresh vegetables, savory
+            spices, and a perfectly toasted bun.
           </p>
         </div>
         <Image
-          className="rounded-full m-1 p-3"
-          src={"/profile.jpeg"}
+          className="rounded m-1 p-3"
+          src={"/burger.jpg"}
           alt="Veg-Burger"
           width={100}
           height={100}
@@ -22,27 +22,29 @@ const Page = () => {
         <div className="m-6">
           <h4 className="font-bold text-lg">Tacos</h4>
           <p className="font-semibold">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
-            sequi?
+            Each bite offers a delightful mix of textures and tastes, wrapped in
+            a soft, warm tortilla. Perfect for a quick snack or a satisfying
+            meal!
           </p>
         </div>
         <Image
-          className="rounded-full m-1 p-3"
-          src={"/profile.jpeg"}
-          alt="Veg-Burger"
+          className="rounded m-1 p-3"
+          src={"/tacos.jpg"}
+          alt="tacos"
           width={100}
           height={100}
         />
         <div className="m-6">
           <h4 className="font-bold text-lg">Classic Waffles</h4>
           <p className="font-semibold">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
-            sequi?
+            Each waffle is a delightful combination of sweetness and warmth,
+            making it the perfect choice for breakfast or a delicious snack any
+            time of the day!
           </p>
         </div>
         <Image
           className="rounded-full m-1 p-3"
-          src={"/profile.jpeg"}
+          src={"/waffle.png"}
           alt="Veg-Burger"
           width={100}
           height={100}
