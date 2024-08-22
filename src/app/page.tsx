@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <meta
           name="tags"
-          content="tailwind Css practice by Asad Shah, tailwind by asad shah, iamasadshah"
+          content="tailwind Css practice by Asad Shah, tailwind practice questions by asadshah, iamasadshah"
         />
       </Head>
       <First />
