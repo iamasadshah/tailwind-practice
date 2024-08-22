@@ -4,7 +4,8 @@ import React from "react";
 const Page = () => {
   return (
     <>
-      <div className="container  grid grid-cols-[1fr,auto] p-24 px-96">
+      <h1 className="text-2xl text-center mt-6 font-bold">Our Menus</h1>
+      <div className="container  grid grid-cols-[1fr,auto]  px-96">
         <div className="m-6">
           <h4 className="font-bold text-lg">Veg Burger</h4>
           <p className="font-semibold">
@@ -13,7 +14,7 @@ const Page = () => {
           </p>
         </div>
         <Image
-          className="rounded m-1 p-3"
+          className="rounded m-1 p-3 hover:scale-150 hover:transition-transform duration-300"
           src={"/burger.jpg"}
           alt="Veg-Burger"
           width={100}
@@ -28,7 +29,7 @@ const Page = () => {
           </p>
         </div>
         <Image
-          className="rounded m-1 p-3"
+          className="rounded m-1 p-3 hover:scale-150 hover:transition-transform duration-300"
           src={"/tacos.jpg"}
           alt="tacos"
           width={100}
@@ -43,7 +44,7 @@ const Page = () => {
           </p>
         </div>
         <Image
-          className="rounded-full m-1 p-3"
+          className="rounded-full m-1 p-3 hover:scale-150 hover:transition-transform duration-300"
           src={"/waffle.png"}
           alt="Veg-Burger"
           width={100}
