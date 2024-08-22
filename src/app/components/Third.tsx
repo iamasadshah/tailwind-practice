@@ -4,7 +4,7 @@ import React from "react";
 const Third = () => {
   return (
     <>
-      <h1 className="text-center practices-heading text-3xl font-bold">
+      <h1 className="text-center practices-heading text-3xl font-bold break-words">
         All Practices
       </h1>
       <div className="container grid grid-cols-3 px-6 my-14 gap-10 ">
