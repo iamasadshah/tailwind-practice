@@ -7,12 +7,19 @@ const Second = () => {
       <b className="text-2xl font-serif">From The Books</b> <br />
       Modern-css-with-tailwind-second-edition <br /> & <br /> CSS Flex &
       Grid_Tailwind CSS by Shruti Balasa
-      <div className="my-4 flex justify-center items-center">
+      <div className=" grid grid-cols-2 place-items-center w-full  h-fit">
         <Image
-          width={100}
-          height={100}
-          className="rounded hover:saturate-150 shadow-2xl hover:scale-110 cursor-grab hover:transition-transform"
-          src="/book.png"
+          width={450}
+          height={450}
+          className="rounded hover:saturate-150  hover:scale-110 cursor-grab hover:transition-transform"
+          src="/Modern-css-with-tailwind.png"
+          alt="Book image"
+        />
+        <Image
+          width={450}
+          height={450}
+          className=" rounded hover:saturate-150  hover:scale-110 cursor-grab hover:transition-transform"
+          src="/css-flex-and-grid.png"
           alt="Book image"
         />
       </div>
