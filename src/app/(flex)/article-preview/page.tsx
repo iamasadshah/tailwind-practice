@@ -4,24 +4,21 @@ import React from "react";
 const Page = () => {
   return (
     <>
-      <div className="flex h-screen bg-slate-400  justify-center items-center">
+      <div className="flex flex-col justify-center items-center mt-4 ">
         <Image
-          className="flex  rounded-l-2xl rounded-bl-2xl "
+          className=" rounded-md md:h-60 md:w-96 md:shadow-xl md:shadow-gray-700 xl:h-80 xl:w-[500px] 2xl:h-[500px] 2xl:w-[800px] 2xl:rounded-lg "
           src={"/article.jpg"}
           alt="book"
           height={180}
           width={180}
         />
 
-        <div
-          className="flex flex-col rounded-r-2xl pl-5 py-0.5
-      rounded-br-2xl bg-white w-[60%]"
-        >
-          <h3 className="text-3xl flex flex-col rounded pb-2">
+        <div className="text-center px-6 md:mt-6 xl:mt-12 2xl:mt-20">
+          <h3 className="font-semibold text-xl md:text-2xl xl:text-4xl 2xl:text-6xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
             facilis
           </h3>
-          <p>
+          <p className="text-start md:text-center xl:text-xl 2xl:text-4xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
             quisquam, ipsa aspernatur rem perferendis consequatur perspiciatis
             accusantium possimus inventore, corporis officia sunt voluptatibus
@@ -29,17 +26,17 @@ const Page = () => {
             quidem laudantium obcaecati vitae quae aliquam odio placeat.
           </p>
 
-          <div className="flex flex-row pt-3 px-6 justify-end">
+          <div className="flex items-center justify-center space-x-5 2xl:space-x-10 mt-4 xl:text-xl 2xl:text-4xl">
             <Image
               width={50}
               height={50}
               src={"/profile.jpeg"}
               alt="profile"
-              className="rounded-full
+              className="rounded-full xl:w-24 2xl:w-40 2xl:mt-6
         "
             />
-            <span className=" font-semibold ml-5">
-              Asad Shah <br /> 20/03/2024
+            <span className=" font-semibold">
+              Asad Shah <br /> 20/08/2024
             </span>
           </div>
         </div>
