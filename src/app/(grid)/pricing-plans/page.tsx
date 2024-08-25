@@ -4,7 +4,7 @@ const Page = () => {
   return (
     <>
       <div
-        className="container grid grid-cols-1 gap-x-8 p-24 place-items-center gap-y-4 md:grid-cols-3
+        className="container grid grid-cols-1 gap-x-8 p-24 place-items-center gap-y-4 md:grid-cols-3 
       "
       >
         <div className="cursor-pointer hover:scale-110 hover:transition-transform hover:bg-yellow-400 border shadow-xl rounded-md p-8 pr-32 hover:text-white md:p-2 md:px-10 lg:py-8 lg:px-20">
