@@ -23,7 +23,7 @@ const Page = () => {
             voluptate laborum distinctio eveniet dolor expedita quaerat
             laboriosam illo quasi eos?
           </p>
-          <Link href={"/"} className="text-cyan-600">
+          <Link href={"/article-preview"} className="text-cyan-600">
             Read more
           </Link>
         </div>
@@ -35,13 +35,13 @@ const Page = () => {
             width={100}
             height={100}
           />
-          <h3 className="text-2xl">Title 1</h3>
+          <h3 className="text-2xl">Title 2</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
             voluptate laborum distinctio eveniet dolor expedita quaerat
             laboriosam illo quasi eos?
           </p>
-          <Link href={"/"} className="text-cyan-600">
+          <Link href={"/article-preview"} className="text-cyan-600">
             Read more
           </Link>
         </div>
@@ -53,13 +53,13 @@ const Page = () => {
             width={100}
             height={100}
           />
-          <h3 className="text-2xl">Title 1</h3>
+          <h3 className="text-2xl">Title 3</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
             voluptate laborum distinctio eveniet dolor expedita quaerat
             laboriosam illo quasi eos?
           </p>
-          <Link href={"/"} className="text-cyan-600">
+          <Link href={"/article-preview"} className="text-cyan-600">
             Read more
           </Link>
         </div>
@@ -71,13 +71,13 @@ const Page = () => {
             width={100}
             height={100}
           />
-          <h3 className="text-2xl">Title 1</h3>
+          <h3 className="text-2xl">Title 4</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
             voluptate laborum distinctio eveniet dolor expedita quaerat
             laboriosam illo quasi eos?
           </p>
-          <Link href={"/"} className="text-cyan-600">
+          <Link href={"/article-preview"} className="text-cyan-600">
             Read more
           </Link>
         </div>
@@ -89,13 +89,13 @@ const Page = () => {
             width={100}
             height={100}
           />
-          <h3 className="text-2xl">Title 1</h3>
+          <h3 className="text-2xl">Title 5</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
             voluptate laborum distinctio eveniet dolor expedita quaerat
             laboriosam illo quasi eos?
           </p>
-          <Link href={"/"} className="text-cyan-600">
+          <Link href={"/article-preview"} className="text-cyan-600">
             Read more
           </Link>
         </div>
@@ -107,13 +107,13 @@ const Page = () => {
             width={100}
             height={100}
           />
-          <h3 className="text-2xl">Title 1</h3>
+          <h3 className="text-2xl">Title 6</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
             voluptate laborum distinctio eveniet dolor expedita quaerat
             laboriosam illo quasi eos?
           </p>
-          <Link href={"/"} className="text-cyan-600 ">
+          <Link href={"/article-preview"} className="text-cyan-600 ">
             Read more
           </Link>
         </div>
