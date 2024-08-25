@@ -5,15 +5,19 @@ import React from "react";
 const Page = () => {
   return (
     <>
-      <div className="container grid sm:grid-cols-2 md:grid-cols-3 gap-8 place-items-center h-full my-20 border-2 rounded-xl">
-        <div className="grid grid-cols-1 p-6 place-items-center">
+      <h1 className="text-center text-3xl font-semibold pt-7">
+        Our Blog Posts
+      </h1>
+      <div className="container grid sm:grid-cols-2 md:grid-cols-3 gap-8 place-items-center h-full mt-10 ">
+        <div className="blog-posts">
           <Image
+            className="featured-image"
             src={"/blog-featured.jpg"}
             alt="featured image"
             width={100}
             height={100}
           />
-          <h3>Title 1</h3>
+          <h3 className="text-2xl">Title 1</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
             voluptate laborum distinctio eveniet dolor expedita quaerat
@@ -23,14 +27,15 @@ const Page = () => {
             Read more
           </Link>
         </div>
-        <div className="grid grid-cols-1 p-6 place-items-center">
+        <div className="blog-posts">
           <Image
+            className="featured-image"
             src={"/blog-featured.jpg"}
             alt="featured image"
             width={100}
             height={100}
           />
-          <h3>Title 1</h3>
+          <h3 className="text-2xl">Title 1</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
             voluptate laborum distinctio eveniet dolor expedita quaerat
@@ -40,14 +45,15 @@ const Page = () => {
             Read more
           </Link>
         </div>
-        <div className="grid grid-cols-1 p-6 place-items-center">
+        <div className="blog-posts">
           <Image
+            className="featured-image"
             src={"/blog-featured.jpg"}
             alt="featured image"
             width={100}
             height={100}
           />
-          <h3>Title 1</h3>
+          <h3 className="text-2xl">Title 1</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
             voluptate laborum distinctio eveniet dolor expedita quaerat
@@ -57,14 +63,15 @@ const Page = () => {
             Read more
           </Link>
         </div>
-        <div className="grid grid-cols-1 p-6 place-items-center">
+        <div className="blog-posts">
           <Image
+            className="featured-image"
             src={"/blog-featured.jpg"}
             alt="featured image"
             width={100}
             height={100}
           />
-          <h3>Title 1</h3>
+          <h3 className="text-2xl">Title 1</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
             voluptate laborum distinctio eveniet dolor expedita quaerat
@@ -74,14 +81,15 @@ const Page = () => {
             Read more
           </Link>
         </div>
-        <div className="grid grid-cols-1 p-6 place-items-center">
+        <div className="blog-posts">
           <Image
+            className="featured-image"
             src={"/blog-featured.jpg"}
             alt="featured image"
             width={100}
             height={100}
           />
-          <h3>Title 1</h3>
+          <h3 className="text-2xl">Title 1</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
             voluptate laborum distinctio eveniet dolor expedita quaerat
@@ -91,20 +99,21 @@ const Page = () => {
             Read more
           </Link>
         </div>
-        <div className="grid grid-cols-1 p-6 place-items-center">
+        <div className="blog-posts">
           <Image
+            className="featured-image"
             src={"/blog-featured.jpg"}
             alt="featured image"
             width={100}
             height={100}
           />
-          <h3>Title 1</h3>
+          <h3 className="text-2xl">Title 1</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
             voluptate laborum distinctio eveniet dolor expedita quaerat
             laboriosam illo quasi eos?
           </p>
-          <Link href={"/"} className="text-cyan-600">
+          <Link href={"/"} className="text-cyan-600 ">
             Read more
           </Link>
         </div>

@@ -7,42 +7,24 @@ const Third = () => {
       <h1 className="text-center practices-heading text-3xl font-bold break-words">
         All Practices
       </h1>
-      <div className="container grid grid-cols-3 px-6 my-14 gap-10 ">
-        <Link
-          href={"/blog-post"}
-          className="practices font-bold text-center bg-yellow-400 rounded-lg py-6 px-1 hover:bg-green-500 hover:scale-110 transition duration-300"
-        >
+      <div className="container grid grid-cols-2 px-6 my-8 gap-10 text-center md:grid-cols-3 xl:grid-cols-4">
+        <Link href={"/blog-post"} className="practice">
           Blog Post
         </Link>
-        <Link
-          href={"/our-services"}
-          className="practices text-center font-bold bg-yellow-400 rounded-lg py-6 px-1 hover:bg-green-500 hover:scale-110 transition duration-300 hover:shadow-lg hover:shadow-slate-700 shadow-slate-800"
-        >
+        <Link href={"/our-services"} className="practice">
           Services Page
         </Link>
 
-        <Link
-          href={"/pricing-plans"}
-          className="practices text-center font-bold bg-yellow-400 rounded-lg py-6 px-1 hover:bg-green-500 hover:scale-110 transition duration-300 hover:shadow-lg hover:shadow-slate-700 shadow-slate-800"
-        >
+        <Link href={"/pricing-plans"} className="practice">
           Pricing Plans
         </Link>
-        <Link
-          href={"/article-preview"}
-          className="practices text-center font-bold bg-yellow-400 rounded-lg py-6 px-1 hover:bg-green-500 hover:scale-110 transition duration-300 hover:shadow-lg hover:shadow-slate-700 shadow-slate-800"
-        >
+        <Link href={"/article-preview"} className="practice">
           Article Preview
         </Link>
-        <Link
-          href={"/fitness-report"}
-          className="practices text-center font-bold bg-yellow-400 rounded-lg py-6 px-1 hover:bg-green-500 hover:scale-110 transition duration-300 hover:shadow-lg hover:shadow-slate-700 shadow-slate-800"
-        >
+        <Link href={"/fitness-report"} className="practice">
           Fitness Report
         </Link>
-        <Link
-          href={"/restaurant-menus"}
-          className="practices text-center font-bold bg-yellow-400 rounded-lg py-6 px-1 hover:bg-green-500 hover:scale-110 transition duration-300 hover:shadow-lg hover:shadow-slate-700 shadow-slate-800"
-        >
+        <Link href={"/restaurant-menus"} className="practice">
           Restaurant Menus
         </Link>
       </div>
