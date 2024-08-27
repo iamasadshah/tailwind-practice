@@ -27,6 +27,9 @@ const Third = () => {
         <Link href={"/restaurant-menus"} className="practice">
           Restaurant Menus
         </Link>
+        <Link href={"/single-price"} className="practice">
+          Single Price
+        </Link>
       </div>
     </>
   );
