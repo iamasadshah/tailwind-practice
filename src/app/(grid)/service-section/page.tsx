@@ -2,8 +2,11 @@ import React from "react";
 
 const Page = () => {
   return (
-    <section className="grid sm:grid-cols-2 md:grid-cols-3 gap-x-8 px-4 py-4">
-      <img className="sm:row-start-1 sm:row-end-3 md:row-end-2 md:col-start-2" />
+    <section className="grid sm:grid-cols-2 md:grid-cols-3 gap-x-8 px-4 py-4 bg-white h-screen">
+      <img
+        className="sm:row-start-1 sm:row-end-3 md:row-end-2 md:col-start-2"
+        src="services.jpg"
+      />
       <div className="md:col-start-1 md:text-right">
         <h3 className="service-section-heading">List Building</h3>
         <p className="service-section-para">
