@@ -30,6 +30,12 @@ const Third = () => {
         <Link href={"/single-price"} className="practice">
           Single Price
         </Link>
+        <Link href={"/contact-form"} className="practice">
+          Contact Form
+        </Link>
+        <Link href={"/service-section"} className="practice">
+          Service Section
+        </Link>
       </div>
     </>
   );
